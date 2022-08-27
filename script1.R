@@ -16,6 +16,11 @@ usethis::create_github_token(description = "jazcabreras")
 
 usethis::edit_r_environ()
 
+usethis::use_github()
+#definitely
+
+
+
 data("mtcars")
 str(mtcars$disp)
 str(mtcars)
